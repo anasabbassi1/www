@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js1.js"></script>
+</head>
+<body>
+    <form action="php2.php" method="post" onsubmit="return verif()">
+        <fieldset>
+           <center> <h1>ajout d'un commentaire</h1></center>
+            <table>
+                <tr>
+                    <td><label for="">Pseudo:</label></td>
+                    <td><input type="text" name="p" id="p"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Sujet:</label></td>
+                    <td> <select name="s" id="s">
+                        <option value="0">Selection un sujet</option>
+                        <option value="1">Les enrigistrements et les fichiers</option>
+                        <option value="2">La recrusivite</option>
+                        <option value="3">Les algorithmes de tri</option>
+                        <option value="4"> Les algorithmes arithmétiques</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Commentaire:</label></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    <td>
+                        <textarea name="c" id="c" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Ajouter"></td>
+                    <td><input type="reset" value="Annuler"></td>
+                </tr>
+            </table>
+    </form>
+</body>
+</html>

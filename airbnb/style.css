@@ -1,0 +1,60 @@
+header{
+    height: 250px;
+    background-image: url(banner.jpg);
+    transition-duration: 5s;
+    transition-property: filter;
+
+}
+header:hover{
+    filter: blur();
+}
+nav{
+    background-color: #162F26;
+    font-weight: bold;
+   height: 700px;
+   padding-top:20px;
+   box-sizing: border-box; 
+   width: 20%;  
+   float: left;
+}
+
+form,fieldset{
+    width:500px;
+}
+section{
+    height: 700px;
+    width: 80%;
+    float: right;
+}
+iframe{
+    width: 99%;
+    height: 690px;
+	border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+td {
+    border:none;
+    padding: 10px;
+}
+
+h2{
+    color: #162F26;
+}
+.btn{
+    padding: 5px;
+    background-color:#162F26;
+    color: white;
+    font-weight: bold;
+}
+label,legend{
+    color:  #162F26;;
+    font-weight: bold;
+}
+hr{
+    border: solid 2px #162F26;
+}

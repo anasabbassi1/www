@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test.js"></script>
+</head>
+<body>
+    <form action="ajouterclient.php" method="post" onsubmit="return verif1()">
+
+        <fieldset><legend>Ajout d'un client:</legend>
+            <table>
+                <tr>
+                    <td>NCIN</td>
+                    <td><input type="text" name="nc" id="nc"></td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td><input type="text" name="n" id="n"></td>
+                </tr>
+                <tr>
+                    <td>prenom</td>
+                    <td><input type="text" name="p" id="p"></td>
+                </tr>
+                <tr>
+                    <td>tel</td>
+                    <td><input type="text" name="t" id="t"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="annuler"></td>
+                    <td><input type="submit" value="ajouter"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

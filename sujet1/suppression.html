@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js3.js"></script>
+</head>
+<body>
+    <form action="php3.php" method="post" onsubmit="return verif()">
+        <fieldset>
+            <center><h1>suppression de commentaires</h1></center>
+            <table>
+                <tr>
+                    <td>Pseudo:</td>
+                    <td><input type="text" name="p" id="p"></td>
+                </tr>
+                <tr>
+                    <td>Sujet:</td>
+                    <td><select name="s" id="s">
+                        <option value="0">Selection un sujet</option>
+                        <option value="1">Les enrigistrements et les fichiers</option>
+                        <option value="2">La recrusivite</option>
+                        <option value="3">Les algorithmes de tri</option>
+                        <option value="4"> Les algorithmes arithmétiques</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="supprimer"></td>
+                    <td><input type="reset" value="Annuler"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

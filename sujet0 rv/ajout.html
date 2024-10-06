@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controles.js"></script>
+</head>
+<body>
+    <form action="" method="post" onsubmit="return verif()">
+
+        <fieldset><legend>Ajout d'un habit</legend>
+            
+            <table>
+                <tr>
+                    <td>catégorie</td>
+                    <td><select name="c" id="c">
+                        <option value="0">Sélectionner une catégorie</option>
+                        <option value="1">Robe de soirée</option>
+                        <option value="2">Robe de mariée</option>
+                        <option value="3">Caftan</option>
+                        <option value="4">Costume</option>
+                        <option value="5">jeba</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td><input type="text" name="d" id="d"></td>
+            </tr>
+            <tr>
+                <td>Taille</td>
+                <td><input type="radio" name="r" id="r1">S<input type="radio" name="r" id="r2">M<input type="radio" name="r" id="r3">L<input type="radio" name="r" id="r4">XL</td>
+            </tr>
+            <tr>
+                <td>Prix de location</td>
+                <td><input type="text" name="p" id="p">DT</td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="annuler"> <input type="submit" name="" id="" value="ajouter"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

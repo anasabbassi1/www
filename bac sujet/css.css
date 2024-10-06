@@ -1,0 +1,8 @@
+.em{
+    transition: transform 5s,font-size 5s, color 5s ;
+    
+}
+.em:hover{
+    color: aqua;
+    font-size: 1000px;
+}

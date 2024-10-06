@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="biblio.js"></script>
+</head>
+<body>
+    <form action="commande.php" method="post" onsubmit="return verif2()">
+        <fieldset>
+            <table>
+                <tr>
+
+                    <th>commande produit</th>
+                </tr>
+                <tr>
+                    <td>Nompoduit:</td>
+                <td><select name="no" id="no"> 
+                    <option value="0">choisir</option>
+                    <option value="101">machine a laver</option>
+                    <option value="50"> pc portable</option>
+                    <option value="230"> telephone</option>
+                    <option value="350"> aspirateur </option>
+                </select></td>
+                    <td>quantite:</td>
+                    <td><input type="text" name="q" id="q"></td>
+                </tr>
+                <tr>
+                    <td>telephone:</td>
+                    <td><input type="text" name="tel" id="tel"></td>
+                    <td>mot de passe:</td>
+                    <td><input type="text" name="m" id="m"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="commander" id="su"></td>
+                    <td><input type="reset" value="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

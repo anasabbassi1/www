@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    <form action="ajout.php" method="post" onsubmit="return verif()">
+        <fieldset>
+            <h1>ajout d'une reclamation</h1>
+            <table>
+                <tr>
+                    <td><label for="">tel client:</label></td>
+                    <td><input type="text" name="t" id="t"></td>
+                </tr>
+                <tr>
+                    <td><label for="">categorie:</label></td>
+                </tr>
+                <tr>
+                    <td><select name="c" id="c">
+                        <option value="0">choisir une categorie</option>
+                        <option value="1">Authentification</option>
+                        <option value="2">Branchement</option>
+                        <option value="3">Synchronisation</option>
+                        <option value="4">Autres</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">description</label></td>
+                </tr>
+                <tr>
+                    <td><textarea name="d" id="d" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="valider"></td>
+                    <td><input type="reset" value="annuler"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+</html>

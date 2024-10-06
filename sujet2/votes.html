@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js2.js"></script>
+</head>
+<body>
+    <form action="votes.php" method="post" onsubmit="return verif()">
+    <fieldset>
+     <center>  <h1>saisie des votes</h1></center>
+        <table>
+            <tr>
+                <td>Electeur N°:</td>
+                <td><input type="text" name="e" id="e"></td>
+            </tr>
+        </table>
+      <center><h1>les candidat</h1></center>  
+        <table>
+            <tr>
+                <td>Fille </td>
+                <td>Garçon</td>
+            </tr>
+            <tr>
+                <td>Abbassi Sihem<input type="radio" name="r" id="a" value="8000"></td>
+                <td>Ben Abdallah Kacem <input type="radio" name="q" id="b" value="8001"></td>
+            </tr>
+            <tr>
+                <td>Troudi Meryem <input type="radio" name="r" id="t" value="9001"></td>
+                <td>Dridi Brahim <input type="radio" name="q" id="d" value="9000"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="voter"></td>
+                <td><input type="reset" value="annuler"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

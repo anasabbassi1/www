@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="verif.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>ajout d'un client</legend>
+        <form action="ajout.php" method="post" onsubmit="return verif()" name="f1">
+            <table>
+                <tr>
+                    <td>ncin</td>
+                    <td><input type="text" name="nc" id="nc"></td>
+                </tr>
+                <tr>
+                    <td>nom</td>
+                    <td><input type="text" name="n" id="n"></td>
+                </tr>
+                <tr>
+                    <td>prenom</td>
+                    <td><input type="text" name="p" id="p"></td>
+                </tr>
+                <tr>
+                    <td>tel</td>
+                    <td><input type="text" name="t" id="t"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="annuler"></td>
+                    <td><input type="submit" value="ajouter"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

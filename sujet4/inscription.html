@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controle.js"></script>
+</head>
+<body>
+    <form action="insctiption.php" method="post" onsubmit="return verifier()">
+
+        <fieldset>
+            <table>
+                <tr>
+                    <td>ncin</td>
+                    <td><input type="text" name="n" id="n"></td>
+                </tr>
+                <tr>
+                    <td>nom et prenom</td>
+                    <td><input type="text" name="p" id="p"></td>
+                </tr>
+                <tr>
+                    <td>score de base</td>
+                    <td><input type="text" name="s" id="s"></td>
+                </tr>
+                <tr>
+                    <td>etat</td>
+                    <td><input type="radio" name="r" id="no" value="N">Nouveau <input type="radio" name="r" id="d" value="R"> Redoublant</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="envoyer"></td>
+                    <td><input type="reset" value="annuler"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    </body>
+    </html>
+    <table>
+        <tr>
+            <th>code institut</th>
+            <th> nom de l institut</th>
+            <th> score admission a l institut</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controles.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>formule de reservation</h1>
+    <hr>
+    <form action="booking.php" method="post" onsubmit="return verif()">
+        <fieldset>
+            <legend>reserver un appartement</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="numero locatalaire"> numero locatalaire</label>
+                        <input type="text" name="numl" id="numl">
+                    </td>
+                    <td>
+                        <label for="numero appartement"> numero appartement</label> 
+                        <input type="text" name="numa" id="numa">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""> date check in</label>
+                        <input type="date" name="di" id="di">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="duree"> duree</label>
+                        <input type="text" name="du" id="du">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="confirmer your booking">confirmer your booking</label>
+                            <input type="checkbox" name="c" id="c">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="reserver" name="" id="">
+                    </td>
+                    <td>
+                        <input type="reset" value="annuler" name="" id="">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

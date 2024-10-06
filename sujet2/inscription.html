@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js">
+</script>
+</head>
+<body>
+    <form action="inscrire.php" method="post" onsubmit="return verif()">
+    <fieldset>
+        <center><h1>inscription des electeurs</h1></center>
+        <table>
+            <tr>
+                <td>Num:</td>
+                <td><input type="text" name="u" id="u"></td>
+            </tr>
+            <tr>
+                <td>Nom:</td>
+                <td><input type="text" name="o" id="o"></td>
+            </tr>
+            <tr>
+                <td>Prenom:</td>
+                <td><input type="text" name="p" id="p"></td>
+            </tr>
+            <tr>
+                <td>Genre:</td>
+                <td><input type="radio" name="r" id="f"value="F">fille <input  type="radio" value="G" name="r" id="g">garçon</td>
+            </tr>
+            <tr>
+                <td>Niveau scolaire:</td>
+                <td><select name="n" id="n"> 
+                    <option value="0">choix</option>
+                    <option value="7"> 7eme</option>
+                <option value="8">8eme</option>
+                <option value="9">9eme</option>
+            </select>
+        </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="inscrire"></td>
+                <td><input type="reset" value="annuler"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

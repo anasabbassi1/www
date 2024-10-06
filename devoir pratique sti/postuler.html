@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="test.js"></script>
+</head>
+<body>
+<form action="postuler.php" method="post" onsubmit="return valid()">
+    <fieldset>
+        <legend>Postuler à un poste</legend>
+        <table>
+            <tr>
+                <td>Numero Profil</td>
+                <td><input type="text" name="n" id="n"></td>
+            </tr>
+            <tr>
+                <td>Poste:</td>
+                <td><select name="c" id="c">
+                    <option value="0">-------------------------</option>
+                    <option value="1">Développeur web</option>
+                    <option value="2"> Data scientist</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="postuler" class="submit" ></td>
+                <td><input type="reset" value="annuler" class="submit"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

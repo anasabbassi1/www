@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controles.js"></script>
+</head>
+<body>
+    <form action="consulter.php" method="post" onsubmit="return verif()">
+    <fieldset>
+        <legend>consultation d'une ligne </legend>
+        <table>
+            <tr>
+                <td>cin:</td>
+                <td><input type="text" name="c" id="c"></td>
+            </tr>
+            <tr>
+                <td>N° de la ligne:</td>
+                <td><input type="text" name="n" id="n"></td>
+            </tr>
+            <tr>
+                error
+                <td><input type="reset" value="annuler"></td>
+                <td><input type="submit" value="consulter"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

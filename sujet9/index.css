@@ -1,0 +1,11 @@
+.cadre{
+    display: flex;
+}
+.iframe1{
+    height: 700px;
+    width: 700px;
+}
+.iframe2{
+    height: 700px;
+    width: 700px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js2.js"></script>
+</head>
+<body>
+    <form action="traitement.php" method="post" onsubmit="return verif()">
+    <fieldset>
+        <h1>traitement dune reclamation</h1>
+        <table>
+            <tr>
+                <td>Tel client:</td>
+                <td><input type="text" name="t" id="t"></td>
+            </tr>
+            <tr>
+                <td><label for="">date reparation:</label></td>
+                <td><input type="date" name="d" id="d"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="valider"></td>
+                <td><input type="reset" value="annuler"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

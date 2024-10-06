@@ -1,0 +1,10 @@
+.d1{display: flex;
+gap: 250px;}
+nav{width: 350px;
+    height: 350px;}
+section{width: 350px;
+height: 350px;}
+iframe{
+    width: 500px;
+    height: 500px;
+}

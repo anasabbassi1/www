@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="biblio.js"></script>
+</head>
+<body>
+    <form action="inscription.php" method="post" onsubmit="return verif1()">
+    <fieldset>
+        <legend>Inscription d'un client </legend>
+        <table>
+            <tr>
+                <td>Nom:</td>
+                <td><input type="text" name="n" id="n"></td>
+            </tr>
+            <tr>
+                <td>Prénom</td>
+                <td><input type="text" name="p" id="p"></td>
+            </tr>
+            <tr>
+                <td>Tél:</td>
+                <td><input type="text" name="tel" id="tel"></td>
+            </tr>
+            <tr>
+                <td>Adresse:</td>
+                <td><textarea name="a" id="a"></textarea></td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td>mot de passe:</td>
+                <td><input type="text" name="m" id="m"></td>
+            </tr>
+            <tr>
+                <td>confirmation du mot de passe:
+                </td>
+                <td><input type="text" name="c" id="c"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="reset" value="annuler"> <input type="submit" value="valider"></td>
+            </tr>
+        </table>
+
+    </fieldset>
+</form>
+</body>
+</html>

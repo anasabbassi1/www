@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>chercher un appartement</h2>
+    <hr>
+    <form action="search.php" method="post">
+        <fieldset>
+            <legend>
+                rechercher appartement
+            </legend>
+            <table>
+                <tr><td>
+                    <label for="">adresse</label>
+                    <select name="s" id="s">
+                        <option value="">--------</option>
+                        <option value=" la marsa">la marsa</option>
+                        <option value="jardin de carthage">jardin de carthage</option>
+                        <option value="lac2">lac2</option>
+                    </select>
+                </td></tr>
+                <tr><td><label for="prix bas">prix bas</label><input type="text" name="pb" id="pb"></td>
+                <td>
+                    <label for="prix elve"> prix eleve</label>
+                    <input type="text" name="pe" id="pe">
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="ordre croissant">ordre croissant</label>
+                    <input type="checkbox" name="c" id="c"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="filtrer" id=""></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

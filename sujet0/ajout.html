@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controles.js"></script>
+    <link rel="stylesheet" href="mesStyles.css">
+</head>
+<body>
+    <form action="ajout.php" method="post" onsubmit="return verif1()">
+
+        <fieldset>
+            <legend>ajout dun habit</legend>
+            <table >
+                <tr>
+                    <td > categorie:</td>
+                    <td><select name="c" id="c">
+                        <option value="0">selectioner une categorie </option>
+                        <option value="1">Robe de soiree</option>
+                        <option value="2">Robe de mairee</option>
+                        <option value="3">caftan</option>
+                        <option value="4">costume</option>
+                        <option value="5">jeba</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td ><label for="" class="la">description:</label></td>
+                <td><input type="text" class="td1" name="d" id="d"></td>
+            </tr>
+            
+            <tr>
+                <td>taille:</td>
+                <td>
+                    <input type="radio" name="r" value="S" id="s">S
+                    <input type="radio" name="r" value="M" id="m">M
+                    <input type="radio" name="r" value="L" id="l">L
+                    <input type="radio" name="r" value="XL" id="xl">XL
+                </td>
+            </tr>
+            <tr>
+                <td><label for="" class="la">prix de location :</label></td>
+                <td><input type="text" class="td1" name="p" id="p">DT</td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="annuler"><input type="submit" value="ajouter"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

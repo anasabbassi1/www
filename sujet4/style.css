@@ -1,0 +1,21 @@
+.d{
+    width: 500px;
+    height: 500px;
+    display :flex;
+}
+.d1{
+    
+    float: left;
+    border-right: 1px solid black;
+    width: 600px;
+
+}
+.d2{
+    width: "50%";
+   
+    float: right;
+}
+iframe{
+    width: 500px;
+    height: 500px
+}

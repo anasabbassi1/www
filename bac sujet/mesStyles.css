@@ -1,0 +1,43 @@
+.zone{display: flex;
+height:100%;
+width:100%;
+
+}
+section{
+    height:1000px;
+    width:1000px;}
+iframe{
+        height: 800px;
+        width: 800px;
+
+    }
+h1{
+transition:  transform 5s, width 5s, height 5s;
+}
+h1:hover{
+    transform: rotate(20deg);
+    width: 130%;
+    height: 130%;
+}
+.input1{
+    width: 100%;
+    padding: 5px;
+   
+}
+.td1{
+   
+    height: 30px;
+    width: 100%;
+}
+.radio{
+    text-align: center;
+
+}
+.inputs{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-transform: capitalize;
+}
+
