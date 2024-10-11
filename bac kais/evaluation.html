@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluation </title>
+</head>
+<body>
+        <form action="">
+            <fieldset>
+                <legend>Evaluation d'un modèle:</legend>
+                <tr>
+                            <td><label for="permis">N° permis :</label></td>
+                            <td><input type="text" id="permis" name="permis"></td>
+                            <td><label for="modele">Modèle testé :</label></td>
+                            <td>
+                                <select name="modele" id="modele">
+                                    <option value="0"> Choisir un modèle</option>
+                                    <option value="1"> Wallis IRIS</option>
+                                    <option value="2"> Wallis 619</option>
+                                    <option value="3"> Wallis 216</option>
+                                </select>
+                            </td>
+                </tr>
+                <tr>
+                            Notes attribuées
+                </tr>
+                <tr>
+                            <td></td>
+                            <td><label for="Securite">Sécurité :</label></td>
+                            <td><input type="text" id="securite" name="securite"></td>
+                            <td><label for="conduite">Conduite :</label></td>
+                            <td><input type="text" id="conduite" name="conduite"></td>
+                            <td><label for="confort">Confort :</label></td>
+                            <td><input type="text" id="confort" name="confort"></td>
+                </tr>
+                <tr>
+                            <td><label for="robot">Je ne suis pas un robot :</label></td>
+                            <td><input type="checkbox" id="robot" name="robot"></td>
+                            <td><label for="date">Date évaluation :</label></td>
+                            <td><input type="text" id="date" name="date"></td>
+                </tr>
+                <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                    <input type="reset" value="Annuler">
+                                    <input type="submit" value="Valider">
+                            </td>
+                </tr>
+</fieldset>
+</form>
+</body>
+</html>

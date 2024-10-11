@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>enregistrement</title>
+<link rel="stylesheet" href="messtyles.css">
+<script src="controle.js"></script>
+</head>
+<body>
+    <form action="" onsubmit="return verif1()">
+        <fieldset>
+            <legend>Enregistrement d'un testeur:</legend>
+            <table>
+                <tr>
+                    <td><label for="permis">N° permis:</label></td>
+                    <td><input type="text" id="permis" name="permis"class="c1"></td>
+                </tr>
+                <tr>
+                    <td><label for="nom">Nom:</label></td>
+                    <td><input type="text" id="nom" name="nom" class="c1"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom:</label></td>
+                    <td><input type="text" id="prenom" name="prenom"></td>
+                </tr>
+                <tr>
+                    <td><label for="genre">Genre:</label></td>
+                    <td>
+                        <input type="radio" id="f" name="genre" >Féminin
+                        <input type="radio" id="m" name="genre">Masculin
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="ville">Ville:</label></td>
+                    <td>
+                        <select name="ville" id="ville">
+                            <option value="0">Choisir une ville</option>
+                            <option value="1">Gafsa</option>
+                            <option value="2">Kef</option>
+                            <option value="3">Sousse</option>
+                            <option value="4">Tunis</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Annuler">
+                        <input type="submit" value="Ajouter">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
