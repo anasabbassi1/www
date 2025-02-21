@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="stylev1.css">
+    <script src="controle.js"></script>
+</head>
+<body>
+    <h1>BIENVENUE DANS NOTRE CHA9A9A</h1>
+    <br>
+    <fieldset><legend>formulaire d'insertion</legend>
+    <form action="" onsubmit="return verif()">
+        <table>
+            <tr>
+                <td>code:</td>
+                <td>
+                    <input type="text" id="c" name="c"  placeholder="saisie auto-increment" >
+                </td>
+            </tr>
+            <tr>
+                <td>objet:</td>
+                <td>
+                    <select class="bd" id="bt" name="o">
+                        <option value="0">selectionner une categorie</option>
+                        <option value="1">pere</option>
+                        <option value="2">mere</option>
+                        <option value="3">grand-pere</option>
+                        <option value="4">grand-mere</option>
+                        <option value="5">autre</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>montant:</td>
+                <td>
+                    <datalist id="price">
+                      <option value="5000">
+                      <option value="10000">
+                      <option value="15000">
+                      <option value="20000">
+                      <option value="25000">
+                    </datalist>
+                    <input list="price" name="browser" id="browser">
+                </td>
+            </tr>
+            <tr>
+                <td>date:</td>
+                <td>
+                    <input type="text" id="d" name="d" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="bd" type="submit" name="en" id="bt" value="envoyer"/>
+                </td>
+                <td>  
+                    <input class="bd" type="reset" name="an" id="bt" value="annuler" />
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</fieldset>
+ <br>
+ <br>  
+ <a href="index.html"><h4>quitter</h4></a>
+</body>
+</html>

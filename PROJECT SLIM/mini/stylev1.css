@@ -1,0 +1,47 @@
+
+h1,a{
+    
+    color:  rgb(12, 41, 173);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline black;
+    text-decoration-style: dashed;
+    text-align: center;
+     
+}
+td{
+    color:  rgb(12, 41, 173);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.bd{
+    color:  rgb(148, 13, 130);
+    background-color: rgb(241, 232, 237);
+    border-radius: 20%;
+    border: rgb(12, 41, 173) solid ;
+}
+
+input{
+    color:  rgb(12, 41, 173);
+    background-color: rgb(241, 232, 237);
+    border-radius: 20%;
+    border: rgb(12, 41, 173) solid ;
+}
+#bt{
+    color:  rgb(51, 148, 13);
+    background-color: rgb(241, 232, 237);
+    border-radius: 20%;
+    border: rgb(12, 41, 173) solid ;
+}
+select{
+    color:  rgb(173, 12, 12);
+    background-color: rgb(241, 232, 237);
+    border-radius: 20%;
+    border: rgb(12, 41, 173) solid ;
+}
+body{
+    background-color:pink;
+}

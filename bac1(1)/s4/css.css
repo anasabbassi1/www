@@ -1,0 +1,61 @@
+table {
+    border: 1px solid black;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Remove extra spacing between cells */
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the form vertically */
+    margin: 0;
+}
+
+label {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: initial;
+    font-style: italic;
+    text-align: center; /* Center the label text */
+    display: block; /* Ensure labels take full width */
+}
+
+input[type="text"], input[type="submit"], input[type="reset"] {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between radio buttons and labels */
+}
+
+.radio-group label {
+    margin: 0; /* Remove default margin */
+    color: white; /* Ensure labels are white */
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="controle.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <form action="inscription.php" method="post" onsubmit="return verifier()">
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="n">NCIN</label></td>
+                    <td><input type="text" name="n" id="n" placeholder="Enter your CIN"></td>
+                </tr>
+                <tr>
+                    <td><label for="p">Nom et Prénom</label></td>
+                    <td><input type="text" name="p" id="p" placeholder="Enter your full name"></td>
+                </tr>
+                <tr>
+                    <td><label for="s">Score de Base</label></td>
+                    <td><input type="text" name="s" id="s" placeholder="Enter your base score"></td>
+                </tr>
+                <tr>
+                    <td><label>État</label></td>
+                    <td>
+                        <div class="radio-group">
+                            <input type="radio" name="r" id="no" value="N" checked>
+                            <label for="no">Nouveau</label>
+                            <input type="radio" name="r" id="d" value="R">
+                            <label for="d">Redoublant</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Envoyer"></td>
+                    <td><input type="reset" value="Annuler"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
