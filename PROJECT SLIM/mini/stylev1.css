@@ -1,12 +1,10 @@
 
 h1,a{
     
-    color:  rgb(12, 41, 173);
+    color:  gold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     font-style: italic;
-    text-decoration: underline black;
-    text-decoration-style: dashed;
     text-align: center;
      
 }
